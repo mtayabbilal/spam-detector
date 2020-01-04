@@ -1,0 +1,76 @@
+/* Background image */
+/* Font definitions in my Css */
+
+/* simlpe declaration of the class is 
+myFont
+*/
+
+/* Font weights
+Bold + Bolder + X are the extensions
+*/
+.myFontBold {
+  font-weight: bold;
+}
+.myFontBolder {
+  font-weight: bolder;
+}
+.myFontBoldX {
+  font-weight: 1000;
+}
+
+/* Font sizes
+Size1, Size2, ... are the extensions
+*/
+
+.myFontSize1 {
+  font-size: 1em;
+}
+.myFontSize2 {
+  font-size: 1.5em;
+}
+.myFontSize3 {
+  font-size: 2em;
+}
+.myFontSize4 {
+  font-size: 2.5em;
+}
+.myFontSize5 {
+  font-size: 3em;
+}
+.myFontSize6 {
+  font-size: 4em;
+}
+
+/*Font Colors
+ClrRed, ClrBlack, ClrWhite, .... are the extesions
+*/
+
+.myFontClrRed {
+  color: red;
+}
+
+/* Font justification
++Center, + Right, + Left
+*/
+.myFontCenter {
+  text-align: center;
+}
+.myFontRight {
+  text-align: right;
+}
+.myFontLeft {
+  text-align: left;
+}
+
+/*my background colors*/
+
+
+/* >.....my hovers for events.....< */
+/* Keyword is myHover */
+
+/* For background Hover
++ BgWhite, , BgBlue
+*/
+/* .myHoverBgBlue{
+
+} */

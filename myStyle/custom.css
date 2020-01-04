@@ -1,0 +1,9 @@
+.ctmBorder {
+  border: 1px groove white;
+}
+.myBody {
+  background-image: url("../image/3.jpg");
+}
+.myCard:hover {
+  border: 3px solid white;
+}

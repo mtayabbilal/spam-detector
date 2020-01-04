@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./myStyle/bootstrap.min.css" />
+    <link rel="stylesheet" href="./myStyle/myCss.css" />
+    <link rel="stylesheet" href="./myStyle/custom.css" />
+    <title>Spam Detector</title>
+  </head>
+  <body>
+    <div>
+      <div class="ctmBorder bg-success">
+        <center>
+          <p class="myFontBoldX myFontSize3 text-white">Spam Detector</p>
+          <p class=" myFontSize1 text-white">Let's identify specific keywords!</p>
+        </center>
+      </div>
+      <div class="container-fluid myBody">
+        <br /><br />
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <center>
+                <br />
+                <div
+                  class="card myCard"
+                  data-toggle="modal"
+                  data-target="#exampleModalCenterX"
+                  style="width: 12rem;"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./image/cardPics/prjctX1.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Let's Detect
+                    </p>
+                  </div>
+                </div>
+                <br />
+              </center>
+            </div>
+            <div class="col">
+              <center>
+                <br />
+                <div
+                  class="card myCard"
+                  data-toggle="modal"
+                  data-target="#aboutApplication"
+                  style="width: 12rem;"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./image/cardPics/prjctX2.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      About Application
+                    </p>
+                  </div>
+                </div>
+                <br />
+              </center>
+            </div>
+            <div class="col">
+              <center>
+                <br />
+                <div
+                  class="card myCard"
+                  data-toggle="modal"
+                  data-target="#aboutDevelopers"
+                  style="width: 12rem;"
+                  
+                >
+                  <img
+                    class="card-img-top"
+                    src="./image/cardPics/prjctX3.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      About Developers
+                    </p>
+                  </div>
+                </div>
+              </center>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+        <div class="col">
+            <center>
+              <br />
+              <div
+              class="card myCard"
+              
+              style="width: 12rem;"
+              onclick="Test()"
+              >
+              <a href="https://github.com/ahmedbilal631/SpamDetector">
+                <img
+                class="card-img-top"
+                src="./image/cardPics/prjctX4.png"
+                alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Get Code
+                  </p>
+                </div>
+              </a>
+              </div>
+            </center>
+          </div>
+          <br /><br />
+        </div>
+      </div>
+      </div>
+<!-- Some extra modals -->
+<!-- about application Modal -->
+<div class="modal fade" id="aboutApplication" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">About Application</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="myFontBoldX text-danger">The major speciality of this application is that, it is purely
+             developed by us. No logic or any other part is copied. We are feeling proud that we have learned something
+              new and special, when many of our fellows are trying to impress the teachers..!!
+          </p>
+          <br>
+          <p>The <strong> spam detector </strong> is an application, that sets a specific criteria of keywords, directly from stored data in the
+            database or it takes from user at the run time. Then the user play it and put a lengthy textual content and begins
+             the test. The application process the given data according to specified criteria and finally present the result. 
+             In the result we get number of words captured during test, a list of found words, and processed paragraph.
+          </p>
+<br>
+          <p class="myFontBoldX">Different Usecases:</p>
+          <p>This module can be used for spam mails detection in some website.</p>
+          <p>This module can be used by the sensitive departments of a country to see, who is 
+            making something wrong over the social media.
+          </p>
+          <p>By converting a social media video into the text, we can analyse that what kind of content is
+             present in the entire video.
+          </p>
+          <p>We can use this module for checking the palagirism.</p>
+          <p>There are a lot of other usecases are present also.</p>
+     <br> 
+          <p class="myFontBoldX">Specs:</p>
+          <p>The used language is JavaScript.</p>
+          <p>UI developed is simply build with HTML.</p>
+          <p>BootStrap 4 is used to cascade the UI.</p>
+          <br>
+          <p class="myFontBoldX">To view the code please <a href="https://github.com/ahmedbilal631/SpamDetector">Click here</a></p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--About developers Modal -->
+<div class="modal fade" id="aboutDevelopers" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">About Developers</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="myFontBoldX myFontSize2">Submitted By:</p>
+          <p class="myFontBoldX">Project manager and analyst:</p>
+          <p>M. TAYYAB BILAL</p>
+          <p>2016-ag-7897</p>
+          <p class="myFontBoldX">UI/frontend Designer/Developer:</p>
+          <p>ALI ABBAS</p>
+          <p>2016-ag-7936</p>
+          <p class="myFontBoldX">Idea and backend logic developer:</p>
+          <p>AHMED BILAL</p>
+          <p>2016-ag-7891</p>
+          <p class="myFontBoldX myFontSize2">Submitted To:</p>
+          <p class="myFontBoldX">Mr. Zeeshan Asif Sb</p>
+          <p class="myFontBoldX">Dept. Computer Science, UAF</p>
+          <br><br> 
+          <p class="myFontBoldX myFontSize2">Submiting date:</p>
+          <p class="myFontBoldX">26 June, 2019</p>
+          <br><br> 
+          <p class="myFontBoldX myFontSize2">Belongs To:</p>
+          <p class="myFontBoldX">BS Software Engineering</p>
+          <p class="myFontBoldX">6th Semester</p>
+          <p class="myFontBoldX">University of Agriculture, Faisalabad</p>
+          
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+      <div class="myFooter bg-secondary">
+        <br />
+        <div class="container">
+          <div class="row text-center">
+            <div class="col text-white myFontBold" 
+            data-toggle="modal"
+            data-target="#aboutApplication">Something about application</div>
+            <div class="col">
+              <img
+                src="./image/icons/fb.png"
+                alt="Facebook"
+                width="35"
+                height="35"
+                title="Facebook"
+              />
+              <img
+                src="./image/icons/twtr.png"
+                alt="Twitter"
+                width="35"
+                height="35"
+                title="Twitter"
+              />
+              <img
+                src="./image/icons/yt.png"
+                alt="YouTube"
+                width="35"
+                height="35"
+                title="Twitter"
+              />
+              <img
+                src="./image/icons/lin.png"
+                alt="Linked in"
+                width="35"
+                height="35"
+                title="Linked in"
+              />
+            </div>
+            <div class="col myFontBold text-white"><a href="https://github.com/ahmedbilal631/SpamDetector"><p>
+              Get code
+            </p> 
+          </a>
+          </div>
+          </div>
+          <br />
+        </div>
+      </div>
+      <center>
+        <p>&copy;spamDetector</p>
+      </center>
+    </div>
+    <!-- now here the modals are present to show quick response -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModalCenterX"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Welcome to start menu
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="text-justify">
+              Please select one criteria. If you want to start test with the
+              keywords stored in database, click on "Start-Directly". And If you
+              wnat to define your own specific criteria, click on
+              "Set-Criteria".
+            </p>
+            <center>
+              <button
+                type="button"
+                data-toggle="modal"
+                data-target="#startDirectly"
+                data-dismiss="modal"
+                class="btn btn-primary"
+                onclick="StartDirectly()"
+              >
+                Start-Directly
+              </button>
+              <button
+                type="button"
+                data-toggle="modal"
+                data-target="#setCriteria"
+                data-dismiss="modal"
+                class="btn btn-primary"
+              >
+                Set-Criteria
+              </button>
+            </center>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="setCriteria"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Set your criteria
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="text-justify">
+              Kindly enter the keyword that you think, should be identified during test, carefully.
+              After entering a word, just press ADD button and then enter the next and repeat the process.
+            </p>
+            <div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="textForCriteria"
+                  aria-describedby="emailHelp"
+                  placeholder="Keyword"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >Please avoid spelling mistakes.</small
+                >
+                <small id="errorDisplay" class="text-danger"></small>
+              </div>
+              <button type="button" onclick="AddKey()" class="btn btn-primary">
+                Add
+              </button>
+              <button
+                type="button"
+                onclick="RemoveKey()"
+                class="btn btn-primary"
+              >
+                Remove
+              </button>
+              <small id="keySuccess" class="text-success"></small>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              data-toggle="modal"
+              data-target="#startDirectly"
+              onclick="SaveKeys(),GetUserList()"
+              class="btn btn-primary"
+            >
+              Save/Start
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TO start test directly from database -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="startDirectly"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Start</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="yesStart">
+
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" onclick="CheckMe()"
+             data-toggle="modal"
+            data-target="#finalResult"
+             class="btn btn-primary " id="submitBtn">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Result Modal -->
+<div class="modal fade" id="finalResult" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Final Report</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="myFontBoldX myFontSize1">Keywords found:</p>
+          <center>
+            <p id="words" class="text-danger myFontBoldX myFontSize2">0</p>
+          </center>
+          <p class="myFontBoldX myFontSize1">Content Category:</p>
+          <center>
+            <p id="contentCTG" class="text-danger myFontBoldX myFontSize2">Clear</p>
+          </center>
+          <p class="myFontBoldX myFontSize1">Keywords matched:</p>
+          <p id="keysHere" class="text-danger myFontBold">keys here</p>
+          <br>
+          <p class="myFontBoldX myFontSize1">Processed Paragraph:</p>
+          <small class="text-danger">( <strong>Note:</strong> The paragraph is in lower case, only detected keywords are
+            given in upper case.)
+          </small>
+          <p id="paraHere" class="text-justify">Paragragh</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" onclick="Reset()" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="./script/mainScript.js"></script>
+    <script src="./script/userKeysScript.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
